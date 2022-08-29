@@ -1,3 +1,6 @@
+body{
+    display: block;
+}
 header{
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -5,6 +8,7 @@ header{
 }
 
 /*modifico header*/
+
 
 .logo{
     width: 200px;
@@ -24,6 +28,61 @@ header{
 }
 
 /*modifico foto e diritti*/
+
+
+/*modifico main*/
+.evidenzia{
+    background-color: yellow;
+}
+
+
+/*modifico lista*/
+.titolo_lista{
+    background-color: rgb(57, 57, 209);
+    color: white;
+    text-align: left;
+
+}
+
+.contenitore_tabella{
+    width: 100%;
+}
+
+.allarga{
+    width: 50%;
+}
+
+.colore{
+    background-color: rgb(129, 129, 172);
+}
+
+.linea1{
+    background-color: rgb(160, 160, 208);
+}
+
+
+
+.suggerimento1{
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.suggerimento2{
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 

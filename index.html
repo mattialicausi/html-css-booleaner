@@ -23,16 +23,17 @@
         </section>
 
         <!--foto e diritti-->
-        <section>
+        <section id="tim">
             <img src="img/tim-1.jpg" alt="Tim foto">
             <img src="img/tim-2.jpg" alt="Tim foto 2">
+        </section>
                 <p class="diritti">1 st Photo: John S. and James L. Knight Foundation, by Scoitt Henrichsen</p>
                 <p class="diritti">2 nd Photo: Wikimedia, by Paul Clarke</p>
-            </section>
+            
 
             <section>
             <!--Paragrafo-->
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus rem facere ullam in ratione magnam officia doloremque cumque officiis quibusdam ipsum voluptatum explicabo nesciunt dignissimos, <span classe="evidenzia">vero quidem deleniti soluta quae.</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="evidenzia">, in suscipit nam animi possimus adipisci delectus ullam iusto explicabo quas iste id, </span>amet assumenda dolores totam provident, reiciendis aperiam laborum.</p>
            
             <!--lista-->
 
@@ -48,39 +49,45 @@
 
             <table>
                 <thead>
-                    <tr>
+                    <tr class="titolo_lista">
                         <th>Lorem ipsum dolor</th>
                         <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
+                        <th class="allarga">Lorem ipsum dolor</th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td>lorem ipsum dolor</td>
-                        <td>lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
-                    </tr>
 
+                    <div class="contenitore_tabella">
+                    <tr>
+                        <td class="colore">lorem ipsum dolor</td>
+                        <td class="colore">lorem ipsum dolor</td>
+                        <td class="allarga colore">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
+                    </tr>
+                </div>
+                <div class="contenitore_tabella">
                     <tr class="riga bianca">
                         <td>lorem ipsum dolor</td>
                         <td>lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
+                        <td class="allarga">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
                      </tr>
+                </div>
                      
-                     <tr>
-                        <td>lorem ipsum dolor</td>
-                        <td>lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
-                    </tr>
-               
+                     <div class="contenitore_tabella">
+                        <tr>
+                            <td class="colore">lorem ipsum dolor</td>
+                            <td class="colore">lorem ipsum dolor</td>
+                            <td class="colore">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis molestias numquam ea, repellendus esse! Non mollitia assumenda cum aliquid quisquam quam. Magnam enim eius voluptatum ex, excepturi fugiat explicabo!</td>
+                        </tr>
+                    </div>
+
                  </tbody>
             </table>
 
             <!--Ultimo paragrafo-->
 
             <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquam aspernatur magni necessitatibus sed eaque <span class="evidenziato">nesciunt quia amet nisi, dolorum ullam quas hic consectetur facilis.</span> Sapiente vitae eos quidem delectus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquam aspernatur magni necessitatibus sed eaque <span class="evidenzia">nesciunt quia amet nisi, dolorum ullam quas hic consectetur facilis.</span> Sapiente vitae eos quidem delectus.</p>
             </section>
 
 
@@ -89,11 +96,15 @@
     <!--creazione footer-->
     <footer>
         <h3 class="grigio">Potrebbero interessarti</h3>
-        <img src="img/monitor.jpg" alt="monitor">
-        <p>Lorem, ipsum dolor.</p>
-        <img src="img/graph.jpg" alt="graph">
-        <p>Lorem, ipsum dolor.</p>
 
+            <div class="suggerimento1">
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+
+            <div class="suggerimento2">
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        
     </footer>
 </body>
 </html>
