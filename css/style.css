@@ -1,19 +1,16 @@
-body{
-    display: block;
-}
+/*modifico header*/
+
 header{
     background-image: url(../img/pattern.png);
     background-size: contain;
     height: 100px;
 }
 
-/*modifico header*/
-
-
 .logo{
     width: 200px;
     margin-top: 5%;
 }
+
 
 .grigio{
     color: grey;
@@ -39,6 +36,9 @@ h1{
     background-color: yellow;
 }
 
+/*modifico foto e diritti*/
+
+
 .tim1{
     width: 50%;
     height: 400px;
@@ -61,8 +61,14 @@ h1{
 
 }
 
+/*modifico tabella*/
+
 .contenitore_tabella{
     width: 100%;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 .allarga{
