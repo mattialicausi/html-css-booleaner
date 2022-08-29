@@ -27,12 +27,29 @@ header{
     font-size: 13px;
 }
 
-/*modifico foto e diritti*/
 
 
 /*modifico main*/
+
+h1{
+    font-size: 30px;
+}
+
 .evidenzia{
     background-color: yellow;
+}
+
+.tim1{
+    width: 50%;
+    height: 400px;
+}
+.tim2{
+    width: 48%;
+    height: 400px;
+}
+
+.diritti{
+    font-size: 10px;
 }
 
 
@@ -61,6 +78,8 @@ header{
 }
 
 
+
+/*modifico ultime due foto con all'interno testo*/
 
 .suggerimento1{
     background-image: url(../img/monitor.jpg);
