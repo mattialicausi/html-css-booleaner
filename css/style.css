@@ -8,3 +8,15 @@ header{
     width: 200px;
     margin-top: 5%;
 }
+
+.grigio{
+    color: grey;
+}
+
+#azzurro{
+    color: rgb(144, 122, 173);
+}
+
+.data{
+    font-size: 13px;
+}
