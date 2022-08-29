@@ -1,0 +1,10 @@
+header{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 5%;
+}
